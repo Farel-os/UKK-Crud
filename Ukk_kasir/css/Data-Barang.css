@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(5, 100, 129);
+  margin: 0;
+  padding: 1px 0;
+}
+
+.Navbar ul {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar li {
+  float: left;
+  margin-left: 10%;
+}
+
+.Navbar a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Navbar a:hover {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  color: black;
+  transition-delay: 0.1s;
+}
